@@ -1,0 +1,61 @@
+
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  color: #222;
+  background-color: #fff;
+}
+
+/* Secciones */
+section {
+  padding: 4rem 1rem;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Botones */
+.btn {
+  font-weight: 600;
+}
+
+/* Mejora accesibilidad de los enlaces */
+a:focus, button:focus {
+  outline: 2px dashed #333;
+  outline-offset: 2px;
+}
+
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Formulario accesible */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
